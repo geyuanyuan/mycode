@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-// import table from './table/index.vue'
 
 Vue.use(VueRouter)
 
@@ -20,6 +19,11 @@ const routes = [
     path:'/table',
     name:'table',
     component:()=>import('../views/table/index.vue')
+  },
+  {
+    path:'/editor',
+    name:'editor',
+    component:()=>import('../views/editor/index.vue')
   }
 ]
 
