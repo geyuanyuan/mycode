@@ -24,6 +24,11 @@ const routes = [
     path:'/editor',
     name:'editor',
     component:()=>import('../views/editor/index.vue')
+  },
+  {
+    path:'/ckEditor',
+    name:'ckEditor',
+    component:()=>import('../views/editor/ckEditor.vue')
   }
 ]
 

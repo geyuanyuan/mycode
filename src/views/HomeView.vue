@@ -4,7 +4,9 @@
       <router-link to="/">menu</router-link> <br>
       <router-link to="/about">About</router-link> <br>
       <router-link to="/table">table</router-link><br>
-      <router-link to="/editor">editor</router-link>
+      <router-link to="/editor">editor</router-link><br>
+      <router-link to="/ckEditor">ckEditor</router-link><br>
+
     </nav>
   </div>
 </template>
