@@ -3,9 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import ElementUI from 'element-ui'
+import ckeditor from 'ckeditor4-vue'
 import './styles.scss'
 
 Vue.use(ElementUI)
+Vue.use(ckeditor)
 
 Vue.config.productionTip = false
 
