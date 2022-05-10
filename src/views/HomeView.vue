@@ -6,7 +6,7 @@
       <router-link to="/table">table</router-link><br>
       <router-link to="/editor">editor</router-link><br>
       <router-link to="/ckEditor">ckEditor</router-link><br>
-
+ <router-link to="/blob">blob</router-link><br>
     </nav>
   </div>
 </template>

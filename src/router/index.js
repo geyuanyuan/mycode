@@ -29,6 +29,11 @@ const routes = [
     path:'/ckEditor',
     name:'ckEditor',
     component:()=>import('../views/editor/ckEditor.vue')
+  },
+  {
+    path:'/blob',
+    name:'blob',
+    component:()=>import('../views/blob/index.vue')
   }
 ]
 
